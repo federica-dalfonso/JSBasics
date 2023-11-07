@@ -1,0 +1,27 @@
+1. Cos'è un algoritmo?
+come istruzioni di montaggio di un mobile Ikea 
+
+Dobbiamo pensare ad un algoritmo come ad una sequenza di istruzioni necessarie a raggiungere un risultato.
+Un esempio di algoritmo nella vita reale potrebbero essere le istruzioni per il montaggio di un mobile Ikea: queste riportano infatti i componenti presenti nella scatola come viti, ganci, tavole (i cosiddetti "input") e il procedimento, passo dopo passo, per assemblare correttamente i pezzi e per portare a termine il montaggio (output).
+
+
+2. Cos'è una variabile? 
+Possiamo paragonare le variabili a delle scatole.  
+Come durante un trasloco, ogni scatola contiene alcuni pezzi di arredamento che vogliamo portare via con noi: per non perderci nella confusione e non dimenticare cosa abbiamo inserito dentro, ogni scatola ha un nome chiaro e significativo scritto sopra (per esempio, meglio scrivere "pentole" piuttosto che "cucina"); inoltre, ogni scatola può essere svuotata e riutilizzata nel caso in cui vogliamo sostituirne il contenuto. Le variabili hanno esattamente la stessa funzione di "contenitori" di dati, hanno dei nomi unici e vengono definite, valorizzate e possono essere riutilizzate.
+
+
+
+3. Undefined e null sono la stessa cosa?
+Non sono la stessa cosa. 
+Null è di fatto un valore che possiamo intenzionalmente assegnare ad una variabile: 
+ad esempio, data 
+let myVariable = null 
+vorrà dire che myVariable avrà di fatto un valore pari a "null", diverso anche da 0 (che è di fatto un number).
+
+Undefined invece significa che non è stato assegnato alcun valore a quella variabile, nemmeno null.
+Di default javascript assegna "undefined" ad ogni nuova variabile dichiarata, prima che essa venga valorizzata; 
+se durante il lavoro ci troviamo di fronte ad una variabile undefined probabilmente c'è stato un errore, perché essa non 
+è stata valorizzata correttamente a tempo debito.
+ 
+
+
